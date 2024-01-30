@@ -19,7 +19,7 @@ Triangle::~Triangle(){
 
 void Triangle :: shapePlot(){
     
-        ofstream myfile("D:\\Shubham_Workspace\\CPP\\Assignments\\Cpp_workspace\\text_files\\Triangle.txt");
+        ofstream myfile("D:\\Shubham_Workspace\\CPP\\Assignments\\GNU_2D\\text_files\\Triangle.txt");
 
          if (sideA + sideB > sideC && sideA + sideC > sideB && sideB + sideC > sideA) {
        

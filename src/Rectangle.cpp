@@ -21,7 +21,7 @@ void Rectangle::areaOfRectangle()
 
 void  Rectangle::shapePlot()
 {
-                ofstream myfile("D:\\Shubham_Workspace\\CPP\\Assignments\\Cpp_workspace\\text_files\\Rectangle.txt");
+                ofstream myfile("D:\\Shubham_Workspace\\CPP\\Assignments\\GNU_2D\\text_files\\Rectangle.txt");
 
                  
                 myfile << "0 0\n";       

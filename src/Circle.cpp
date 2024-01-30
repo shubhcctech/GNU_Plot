@@ -14,7 +14,7 @@ Circle::Circle(double mRadius){
 
 void Circle::shapePlot()
 {
-    ofstream myFile("D:\\Shubham_Workspace\\CPP\\Assignments\\Cpp_workspace\\text_files\\Circle.txt");
+    ofstream myFile("D:\\Shubham_Workspace\\CPP\\Assignments\\GNU_2D\\text_files\\Circle.txt");
             int points = 100;
             
             for (int i = 0; i <= points; i++) {
@@ -23,8 +23,8 @@ void Circle::shapePlot()
 
                 double x = mRadius * cos(theta);
                 double y = mRadius * sin(theta);
-                int z = (rand() % (5 - 1 + 1)) + 1;
-                myFile << x << " " << y << " "<< 5 << endl;
+                
+                myFile << x << " " << y  << endl;
             }
             myFile.close(); 
       

@@ -14,7 +14,7 @@ Ellipse::~Ellipse(){
 
 void Ellipse::shapePlot(){
 
-    ofstream file ("D:\\Shubham_Workspace\\CPP\\Assignments\\Cpp_workspace\\text_files\\Ellipse.txt");
+    ofstream file ("D:\\Shubham_Workspace\\CPP\\Assignments\\GNU_2D\\text_files\\Ellipse.txt");
     int points = 100;
             
             for (int i = 0; i <= points; i++) {

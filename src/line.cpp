@@ -19,7 +19,7 @@ Line :: ~Line ()
 }
 
 void Line::shapePlot(){
-    ofstream myfile("D:\\Shubham_Workspace\\CPP\\Assignments\\Cpp_workspace\\text_files\\Line.txt");
+    ofstream myfile("D:\\Shubham_Workspace\\CPP\\Assignments\\GNU_2D\\text_files\\Line.txt");
     myfile<<"0 0"<<endl;
     myfile<<mLength<<" 0"<<endl;
 

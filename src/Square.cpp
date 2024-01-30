@@ -11,7 +11,7 @@ Square :: Square(double side)
 
 void Square::shapePlot(){
 
-        ofstream myfile("D:\\Shubham_Workspace\\CPP\\Assignments\\Cpp_workspace\\text_files\\Square.txt");
+        ofstream myfile("D:\\Shubham_Workspace\\CPP\\Assignments\\GNU_2D\\text_files\\Square.txt");
 
                  
         myfile << "0 0\n";       
