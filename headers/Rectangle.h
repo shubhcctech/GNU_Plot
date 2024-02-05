@@ -1,31 +1,17 @@
 #pragma once
 #include "ShapeRepresentation.h"
-
-
-
-
  class Rectangle : public Plotting
 {
-    private:
-    
-    double length;
-    double breadth;
-   
-
-    public:
-    
+   public:
     Rectangle();
     Rectangle(double,double);
-
-    ~Rectangle();
-    
+    ~Rectangle();   
     void shapePlot();
-
-   
-
-
     void areaOfRectangle();
-
     void perimeterOfRectangle();
+
+    private:
+    double length;
+    double breadth;
 
 };
